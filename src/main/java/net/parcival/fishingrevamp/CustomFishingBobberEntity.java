@@ -219,9 +219,7 @@ public class CustomFishingBobberEntity extends CustomProjectileEntity{
     private boolean removeIfInvalid(PlayerEntity player) {
         ItemStack itemStack = player.getMainHandStack();
         ItemStack itemStack2 = player.getOffHandStack();
-        boolean bl = itemStack.isOf(Items.FISHING_ROD);
-        boolean bl2 = itemStack2.isOf(Items.FISHING_ROD);
-        if (player.isRemoved() || !player.isAlive() || !bl && !bl2 || this.squaredDistanceTo(player) > 1024.0) {
+        if (player.isRemoved() || !player.isAlive() || this.squaredDistanceTo(player) > 1024.0) {
             this.discard();
             return true;
         }
