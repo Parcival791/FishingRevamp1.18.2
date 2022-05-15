@@ -9,7 +9,9 @@ import net.parcival.fishingrevamp.FishingRevamp;
 
 public class ModItems {
 
-    public static final Item NET_ROD = registerItem("net_rod", new NetRodItem(new FabricItemSettings().group(ItemGroup.TOOLS).maxCount(1)));
+    public static final Item NET_ROD = registerItem("net_rod", new NetRodItem(new FabricItemSettings().group(ItemGroup.TOOLS).maxCount(1).maxDamage(64)));
+    public static final Item FISHING_NET = registerItem("fishing_net", new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64)));
+
 
 
 

@@ -8,7 +8,7 @@
   "key": {
     "#": {"item":"minecraft:stick"},
     "X": {
-      "item":"minecraft:cobweb"
+      "item":"fishingrevamp:fishing_net"
     }
   },
   "result": {
