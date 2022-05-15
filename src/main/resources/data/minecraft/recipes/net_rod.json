@@ -1,14 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  #",
-    " #X",
+    "  S",
+    " #R",
     "# X"
   ],
   "key": {
     "#": {"item":"minecraft:stick"},
     "X": {
       "item":"fishingrevamp:fishing_net"
+    },
+    "R": {
+      "item":"fishingrevamp:reinforced_string"
+    },
+    "S": {
+      "item":"fishingrevamp:string_hook"
     }
   },
   "result": {

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {"item":"minecraft:string"},
+    "X": {
+      "item":"minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "fishingrevamp:reinforced_string",
+    "count": 1
+  }
+}
